@@ -1,6 +1,6 @@
 {
   "name": "@nrwlia/enet-node",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -16,7 +16,11 @@
       7
     ]
   },
-  "keywords": ["enet", "networking", "nodejs"],
+  "keywords": [
+    "enet",
+    "networking",
+    "nodejs"
+  ],
   "author": "nrwlia",
   "license": "GPL-3.0-only",
   "bugs": {
