@@ -1,0 +1,36 @@
+{
+  "name": "@nrwlia/enet-node",
+  "version": "0.1.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "install": "cmake-js compile",
+    "build-debug": "cmake-js compile --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrwlia/enet-node.git"
+  },
+  "binary": {
+    "napi_versions": [
+      7
+    ]
+  },
+  "keywords": ["enet", "networking", "nodejs"],
+  "author": "nrwlia",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/nrwlia/enet-node/issues"
+  },
+  "homepage": "https://github.com/nrwlia/enet-node",
+  "description": "",
+  "dependencies": {
+    "cmake-js": "^7.3.0",
+    "eventemitter3": "^5.0.1",
+    "node-addon-api": "^8.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "typescript": "^5.7.3"
+  }
+}
