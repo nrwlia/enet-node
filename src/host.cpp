@@ -1,4 +1,6 @@
 #include "host.hpp"
+#include <thread>
+
 #define RET_ERR(env, msg)                                            \
     {                                                                \
         Napi::TypeError::New(env, msg).ThrowAsJavaScriptException(); \
