@@ -1,11 +1,11 @@
 {
   "name": "@nrwlia/enet-node",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "install": "cmake-js compile",
-    "build-debug": "cmake-js compile --debug"
+    "install": "cmake-js compile && tsc",
+    "build-debug": "cmake-js compile --debug && tsc"
   },
   "repository": {
     "type": "git",
@@ -27,10 +27,10 @@
   "dependencies": {
     "cmake-js": "^7.3.0",
     "eventemitter3": "^5.0.1",
-    "node-addon-api": "^8.3.0"
+    "node-addon-api": "^8.3.0",
+    "typescript": "^5.7.3"
   },
   "devDependencies": {
-    "@types/node": "^22.10.10",
-    "typescript": "^5.7.3"
+    "@types/node": "^22.10.10"
   }
 }
